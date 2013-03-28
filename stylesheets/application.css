@@ -100,3 +100,33 @@ option { border-bottom: 1px dotted #d7d7d7; }
     color: #ff9000; 
     text-decoration: underline;
 }
+
+img.gravatar {
+    padding: 2px !important;
+}
+
+table.progress {
+    margin: 0px 5px 0px 0px;
+}
+
+.progress {
+    vertical-align: middle !important;
+}
+
+.percent { line-height: 16px; }
+
+div.issue {
+    background: rgb(252, 233, 212);
+}
+
+table.progress td.closed {
+    background: #ff9000 none repeat scroll 0%;
+}
+
+.issues .context-menu-selection:hover, .issues .context-menu-selection {
+    background-color: #ff9000 !important;
+}
+
+table.list tbody tr:hover {
+    background-color: rgb(252, 233, 212) !important;
+}
