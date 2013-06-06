@@ -152,6 +152,12 @@ div.attachments div.images {
     border: 1px solid #FF9900 !important;
 }
 
+.description {
+	background-color: #ffffff; 
+	padding: 0px 10px 10px 10px;
+	border: 1px solid #d7d7d7;
+}
+
 /** WYSIWYG-EDITOR **/
 span.cke_skin_kama {
     border-radius: 0px !important;
