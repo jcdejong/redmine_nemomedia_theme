@@ -6,4 +6,13 @@ $(document).ready(function() {
             $('html, body').animate({scrollTop:$('#issue_private_notes').position().top}, 'slow');
         }
     });
+
+    // add lightbox behaviour to comments
+    $('.lightbox').each(function( index ){
+        var found = $(this).attr('title');
+        $('a:contains(' + found + ')').click(function(){
+            $("a[title='" + found + "']").trigger('click');
+            return false;
+        });
+    });
 });
